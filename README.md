@@ -9,7 +9,13 @@ See [palletops](http://palletops.com) for an overview.
 
 ## Support
 
-[On the group](http://groups.google.com/group/pallet-clj), or #pallet on freenode irc.
+You can get support on the [mailing
+list](http://groups.google.com/group/pallet-clj), or #pallet on freenode irc.
+
+## Quickstart
+
+See the [basic usage](https://github/com/pallet-examples/basic) example in the
+[pallet-examples](https://github/com/pallet-examples) project.
 
 ## Installation
 
@@ -48,37 +54,13 @@ maven, or your favourite maen repository aware build tool.
       </repository>
     </repositories>
 
-### Quickstart
+## Dependencies
 
-If you just want to try out pallet, then you can follow these instructions:
-
-- git clone https://github.com/hugoduncan/pallet-all
-
-- Install [Leiningen](http://github.com/technomancy/leiningen).
-
-- In a shell, go to the directory containing the pallet source code and enter
-
-        $ lein deps
-        $ lein compile-java
-        $ lein repl
-
-You should now have a working repl, which you can use to explore pallet.  You
-might want to make the basic pallet commands available without namespace prefix
-by typing the following at the repl.
-
-        user> (use 'pallet.repl)
-	user> (use-pallet)
-
-## Todo
-
-Make password handling shell character safe.
-Add progress reporting.
-
-## See also
-[chef](http://wiki.opscode.com/display/chef/Home),
-[crane](http://github.com/bradford/crane),
-[jclouds](http://github.com/jclouds/jclouds)
+* JDK 1.6
+* Maven 2.2.1
 
 ## License
 
 Licensed under [EPL](http://www.eclipse.org/legal/epl-v10.html)
+
+Copyright (c) 2010 Hugo Duncan
