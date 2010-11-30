@@ -1,11 +1,11 @@
 # pallet-all
 
-An all-in-one dependency for [pallet](https://github.com/hugoduncan/pallet) and
-[pallet-crates](https://github.com/hugoduncan/pallet-crates).
+An all-in-one dependency for [pallet](https://github.com/pallet/pallet) and
+[pallet-crates](https://github.com/pallet/pallet-crates).
 
 See [palletops](http://palletops.com) for an overview.
 
-[API documentation](https://hugoduncan.github.com/pallet) is available.
+[API documentation](https://pallet.github.com/pallet) is available.
 
 ## Support
 
@@ -14,9 +14,9 @@ list](http://groups.google.com/group/pallet-clj), or #pallet on freenode irc.
 
 ## Quickstart
 
-See the [basic usage](https://github.com/hugoduncan/pallet-examples/tree/master/basic/)
+See the [basic usage](https://github.com/pallet/pallet-examples/tree/master/basic/)
 example in the
-[pallet-examples](https://github.com/hugoduncan/pallet-examples) project.
+[pallet-examples](https://github.com/pallet/pallet-examples) project.
 
 ## Installation
 
