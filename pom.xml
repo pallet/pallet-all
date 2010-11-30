@@ -23,6 +23,18 @@
       <artifactId>pallet-crates-all</artifactId>
       <version>${pallet.version}</version>
     </dependency>
+    <dependency>
+      <groupId>swank-clojure</groupId>
+      <artifactId>swank-clojure</artifactId>
+      <version>1.2.1</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.jclouds</groupId>
+      <artifactId>jclouds-all</artifactId>
+      <version>${jclouds.version}</version>
+      <optional>true</optional>
+    </dependency>
   </dependencies>
 
   <scm>
@@ -33,5 +45,6 @@
 
   <properties>
     <pallet.version>0.4.0-SNAPSHOT</pallet.version>
+    <jclouds.version>1.0-beta-8</jclouds.version>
   </properties>
 </project>
