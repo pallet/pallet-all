@@ -26,9 +26,9 @@
   </dependencies>
 
   <scm>
-    <connection>scm:git:git://github.com/hugoduncan/pallet-all.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/hugoduncan/pallet-all.git</developerConnection>
-    <url>http://github.com/hugoduncan/pallet-all</url>
+    <connection>scm:git:git://github.com/pallet/pallet-all.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/pallet/pallet-all.git</developerConnection>
+    <url>http://github.com/pallet/pallet-all</url>
   </scm>
 
   <properties>
