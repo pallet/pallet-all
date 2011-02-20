@@ -24,6 +24,13 @@
       <version>${pallet.version}</version>
     </dependency>
     <dependency>
+      <groupId>org.cloudhoist</groupId>
+      <artifactId>pallet</artifactId>
+      <version>${pallet.version}</version>
+      <type>test-jar</type>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
       <groupId>swank-clojure</groupId>
       <artifactId>swank-clojure</artifactId>
       <version>1.2.1</version>
@@ -33,6 +40,19 @@
       <groupId>org.jclouds</groupId>
       <artifactId>jclouds-all</artifactId>
       <version>${jclouds.version}</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <optional>true</optional>
+    </dependency>
+    <!-- enable settings.xml so we can use this project for exporting
+         the org-mode code blocks -->
+    <dependency>
+      <groupId>org.apache.maven</groupId>
+      <artifactId>maven-settings</artifactId>
+      <version>2.0.10</version>
       <optional>true</optional>
     </dependency>
   </dependencies>
