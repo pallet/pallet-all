@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.cloudhoist</groupId>
     <artifactId>pallet-pom</artifactId>
-    <version>0.4.0-SNAPSHOT</version>
+    <version>0.4.0</version>
     <relativePath>../pallet-pom</relativePath>
   </parent>
   <artifactId>pallet-all</artifactId>
@@ -21,7 +21,7 @@
     <dependency>
       <groupId>org.cloudhoist</groupId>
       <artifactId>pallet-crates-all</artifactId>
-      <version>${pallet.version}</version>
+      <version>${pallet-crates.version}</version>
     </dependency>
     <dependency>
       <groupId>org.cloudhoist</groupId>
@@ -64,7 +64,8 @@
   </scm>
 
   <properties>
-    <pallet.version>0.4.0-SNAPSHOT</pallet.version>
+    <pallet.version>0.4.0</pallet.version>
+    <pallet-crates.version>0.4.0</pallet-crates.version>
     <jclouds.version>1.0-beta-8</jclouds.version>
   </properties>
 </project>
