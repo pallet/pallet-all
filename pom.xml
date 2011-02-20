@@ -9,6 +9,7 @@
   </parent>
   <artifactId>pallet-all</artifactId>
   <packaging>jar</packaging>
+  <version>0.4.0-SNAPSHOT</version>
   <name>pallet-all</name>
   <description>Pallet - all in one dependency for pallet core and crates</description>
 
